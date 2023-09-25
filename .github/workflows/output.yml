@@ -1,0 +1,11 @@
+name: Output of the job
+on:
+    issues:
+      types: [opened, edited, milestoned]
+jobs:
+  build_output:
+    runs-on: ubuntu-latest
+    steps:
+    - name : Output
+      run: echo '{{ steps.step1.outputs.time}}'
+```
