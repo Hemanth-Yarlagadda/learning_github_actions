@@ -1,4 +1,4 @@
-name: First one
+name: Running npm tests
 on: push
 jobs:
     Running_tests:
