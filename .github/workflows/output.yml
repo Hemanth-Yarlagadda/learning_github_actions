@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name : Output
-      run: echo '{{ steps.step1.outputs.time}}'
+      run: echo "${{ toJSON(github) }}"
