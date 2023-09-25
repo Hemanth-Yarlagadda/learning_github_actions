@@ -1,7 +1,5 @@
 name: Output of the job
-on:
-    issues:
-      types: [opened, edited, milestoned]
+on: push
 jobs:
   build_output:
     runs-on: ubuntu-latest
