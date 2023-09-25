@@ -8,4 +8,3 @@ jobs:
     steps:
     - name : Output
       run: echo '{{ steps.step1.outputs.time}}'
-```
